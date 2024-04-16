@@ -255,3 +255,22 @@ color: white;
   /* max-height: 400px; Adjust this value to control the maximum height of the images */
 }
 
+.navbar-but {
+
+}
+.navbar-but li a{
+  color: white;
+  font-size: 20px;
+}
+.Navbar-logo {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  left: -430px;
+}
+
+@media (max-width: 950px) {
+  .Navbar-logo {
+    display: none;
+  }
+}

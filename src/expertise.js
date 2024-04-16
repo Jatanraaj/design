@@ -5,7 +5,7 @@ import Expertise1 from './expertise1'
 export default function Expertise() {
   return (
     <div>
-        {/* <Expertise1/> */}
+        <Expertise1/>
         <Expertise2/>
     </div>
   )
