@@ -5,15 +5,15 @@ import ex3 from './assets/ex5.png';
 
 export default function Expertise1() {
     return (
-        <div className="container-fluid expertise">
+        <div className="container-fluid expertise" >
             <div className="row">
                 <div className="col-md-12">
-                    <div className="row">
+                    <div className="row" style={{overflow:'hidden'}}>
                         
                         <div className="col-md-6">
                             <img src={ex} alt="Example 1" className="img-fluid" />
                         </div>
-                        <div className="col-md-6" style={{padding:'30px'}}>
+                        <div className="col-md-5" style={{padding:'20px'}}>
                             <h1 style={{ fontWeight: '300', textAlign:'center' }}>We celebrate <span style={{ color: 'orange' }}>success</span></h1>
                             <p style={{ fontSize: '16px' }}>At CaSE we understand that every achievement, big or small, is a result of the hard work and dedication of our team members. We take pride in
 celebrating these moments because they underscore the commitment and effort put into each project.
@@ -23,7 +23,7 @@ team celebrate together during team cycling events, regular team dinners and soc
                         </div>
                     </div>
                     <div className="row lower-pics" style={{ marginTop: '20px' }}>
-                        <div className="col-md-8">
+                        <div className="col-md-8" style={{paddingRight:'20px'}}>
                             <img src={ex2} alt="Example 2" className="img-fluid" />
                         </div>
                         <div className="col-md-4">

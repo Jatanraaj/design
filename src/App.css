@@ -181,7 +181,9 @@ color: white;
 }
 
 .expertise{
-  margin: 20px;
+  /* margin: 20px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .slider-container {
@@ -261,12 +263,13 @@ color: white;
 .navbar-but li a{
   color: white;
   font-size: 20px;
+  margin: 20px;
 }
 .Navbar-logo {
   width: 120px;
   height: 120px;
   position: relative;
-  left: -430px;
+  left: -330px;
 }
 
 @media (max-width: 950px) {
